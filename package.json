@@ -10,15 +10,27 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+<<<<<<< HEAD
     "lucide-react": "^0.554.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+=======
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.554.0"
+>>>>>>> f7abb7d2b54b96b8d602549ab0bfdc20f5dde58c
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
+=======
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "gh-pages": "^6.1.1"
+>>>>>>> f7abb7d2b54b96b8d602549ab0bfdc20f5dde58c
   }
 }

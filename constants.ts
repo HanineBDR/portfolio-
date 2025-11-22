@@ -17,13 +17,13 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: "LinkedIn",
-    url: "#", // Add actual link if available
+    url: "url: https://www.linkedin.com/in/hanine-boudour-9a7474397", // Add actual link if available
     icon: Linkedin,
     label: "LinkedIn"
   },
   {
     platform: "GitHub",
-    url: "#", // Add actual link if available
+    url: "https://github.com/HanineBDR", // Add actual link if available
     icon: Github,
     label: "GitHub"
   }

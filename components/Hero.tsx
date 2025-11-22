@@ -43,18 +43,14 @@ const Hero: React.FC = () => {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </a>
               
-      <button 
-  onClick={() => {
-    const link = document.createElement('a');
-    link.href = RESUME_URL;
-    link.download = 'Hanine_Boudour_CV.pdf';
-    link.click();
-  }}
+<a 
+  href={RESUME_URL}
+  download="Hanine_Boudour_CV.pdf"
   className="px-8 py-3 rounded-full bg-slate-800 text-white font-semibold hover:bg-slate-700 border border-slate-700 hover:border-purple-500/50 transition-all duration-300 flex items-center"
 >
   Download CV
   <Download className="ml-2 h-4 w-4" />
-</button>
+</a>
             </div>
           </div>
           

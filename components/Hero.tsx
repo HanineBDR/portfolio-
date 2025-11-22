@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 blur-2xl opacity-50 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full border-4 border-slate-900 overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/profile.jpg"
+                  src={`${(import.meta as any).env?.BASE_URL ?? '/'}images/profile.jpg`}
                   alt="Hanine Boudour" 
                   className="w-full h-full object-cover"
                 />

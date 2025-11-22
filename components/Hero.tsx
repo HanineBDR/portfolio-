@@ -54,16 +54,8 @@ const Hero: React.FC = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 blur-2xl opacity-50 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full border-4 border-slate-900 overflow-hidden shadow-2xl">
-                {/* 
-                  NOTE: Using a generated avatar since the user's specific image cannot be linked directly 
-                  in this code output without external hosting. The visual style matches the request.
-                */}
                 <img 
-<<<<<<< HEAD
                   src="/images/profile.jpg"
-=======
-                  src="https://ui-avatars.com/api/?name=Hanine+Boudour&background=1e293b&color=a78bfa&size=400&font-size=0.33" 
->>>>>>> f7abb7d2b54b96b8d602549ab0bfdc20f5dde58c
                   alt="Hanine Boudour" 
                   className="w-full h-full object-cover"
                 />

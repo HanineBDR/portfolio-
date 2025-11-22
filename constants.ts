@@ -1,6 +1,14 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Globe, Code, Layout, Database, Terminal, Cpu } from 'lucide-react';
 import { Project, Skill, EducationItem, ContactInfo, SocialLink } from './types';
 
+// =========================================
+// CV / RESUME CONFIGURATION
+// =========================================
+// How to add your CV:
+// 1. Put your PDF file (e.g., 'hanine-cv.pdf') inside the 'public/files' folder.
+// 2. Change the line below to: 
+//    export const RESUME_URL = "/files/cv3.pdf";
+export const RESUME_URL = "/files/cv3.pdf";
 export const CONTACT_INFO: ContactInfo = {
   email: "hanine.boudour@univ-constantine2.dz",
   phone: "+213 559 893 379",

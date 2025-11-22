@@ -17,7 +17,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: "LinkedIn",
-    url: "url: https://www.linkedin.com/in/hanine-boudour-9a7474397", // Add actual link if available
+    url: "https://www.linkedin.com/in/hanine-boudour-9a7474397", // Add actual link if available
     icon: Linkedin,
     label: "LinkedIn"
   },
